@@ -6,19 +6,16 @@ const Home = () => {
         {title: 'My new blog', body: 'lorem ipsum...', author: 'Sabin', id: 1},
         {title: 'Cooking blog', body: 'lorem ipsum...', author: 'Raja', id: 2},
         {title: 'Sports blog', body: 'lorem ipsum...', author: 'Sanam', id: 3},
-        {title: 'Politics blog', body: 'lorem ipsum...', author: 'Rajendra', id: 4}
+        {title: 'Politics blog', body: 'lorem ipsum...', author: 'Sabin', id: 4}
     ]); 
+
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs (newBlogs);
+    }
     return (
       <div className="home">
-
-        {/* {blogs.map((blog) => (
-          <div className="blog-preview" key={blog.id}>
-            <h2>{blog.title}</h2>
-            <p>Written by: {blog.author}</p>
-          </div>
-        ))} */}
-
-        <BlogList blogs={blogs} />
+        <BlogList blogs={blogs} title="Blog List" handleDelete={handleDelete}/>
       </div>
     );
 }
