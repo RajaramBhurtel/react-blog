@@ -1,22 +1,46 @@
 {
-    "blogs": [
-      {
-        "id": 1,
-        "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-        "author": "Sabin"
+  "blogs": [
+    {
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+      "author": "Sabin"
     },
-      {
-        "id": 2,
-        "title": "qui est esse",
-        "author": "Raja",
-        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-      },
-      {
-        "id": 3,
-        "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-        "author": "Rani",
-        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-      }
-    ]
+    {
+      "id": 2,
+      "title": "qui est esse",
+      "author": "Raja",
+      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "author": "Rani",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+      "title": "Blog",
+      "body": "A blog (a truncation of \"weblog\")[1] is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in reverse chronological order so that the most recent post appears first, at the top of the web page. The first blogger of the internet, named Justin Hall, a college undergrad, was found in 1994.[2][3] That site was links.net and still active till the date. Until 2009, blogs were usually the work of a single individual,[citation needed] occasionally of a small group, and often covered a single subject or topic. In the 2010s, \"multi-author blogs\" (MABs) emerged, featuring the writing of multiple authors and sometimes professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other \"microblogging\" systems helps integrate MABs and single-author blogs into the news media. Blog can also be used as a verb, meaning to maintain or add content to a blog.\n\nThe emergence and growth of blogs in the late 1990s coincided with the advent of web publishing tools that facilitated the posting of content by non-technical users who did not have much experience with HTML or computer programming. Previously, knowledge of such technologies as HTML and File Transfer Protocol had been required to publish content on the Web, and early Web users therefore tended to be hackers and computer enthusiasts. In the 2010s, the majority are interactive Web 2.0 websites, allowing visitors to leave online comments, and it is this interactivity that distinguishes them from other static websites.[4] In that sense, blogging can be seen as a form of social networking service. Indeed, bloggers not only produce content to post on their blogs but also often build social relations with their readers and other bloggers.[5] However, there are high-readership blogs which do not allow comments.",
+      "author": "Sabin",
+      "id": 4
+    },
+    {
+      "title": "How to Get Discovered as a Writer",
+      "body": "If you want to get discovered as a writer, there’s an elephant in the room we have to first address … search engine optimization, or SEO.\n\nNot that into it?\n\nYeah, I wasn’t either.\n\nBut because it’s a topic I wasn’t initially interested in, I have three practical hacks to share with you.\n\nThese tips allow writers to take advantage of search engine results — without any keyword research.",
+      "author": "Sabin",
+      "id": 5
+    },
+    {
+      "title": "How to Get Discovered as a Writer",
+      "body": "If you want to get discovered as a writer, there’s an elephant in the room we have to first address … search engine optimization, or SEO.\n\nNot that into it?\n\nYeah, I wasn’t either.\n\nBut because it’s a topic I wasn’t initially interested in, I have three practical hacks to share with you.\n\nThese tips allow writers to take advantage of search engine results — without any keyword research.",
+      "author": "Sabin",
+      "id": 6
+    },
+    {
+      "title": "Hubspot (Digital Marketing)",
+      "body": "SaaS powerhouse, Hubspot, has one of the most trafficked blogs, not only in its niche but across various niches.\n\nFounded in 2005 by Brian Halligan and Dharmesh Shah, the company’s core focus has always been helping businesses nail their inbound marketing.\n\nHubSpot’s blog is built around 3 general categories — marketing, sales, and customer success. In essence, it’s actually 3 blogs in one, catering for their 3 most important personas.",
+      "author": "Ram",
+      "id": 7
+    }
+  ]
 }
