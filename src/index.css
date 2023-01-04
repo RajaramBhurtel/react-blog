@@ -63,6 +63,9 @@
 }
 
 /* blog details per page */
+.blog-details a{
+  text-decoration: none;
+}
 .blog-details h2{
   font-size: 20px;
   color: #f1356d;
@@ -107,7 +110,7 @@
 .create select {
   width: 100%;
   padding: 6px 10px;
-  margin: 10px 0;
+  margin: 20px 0;
   border: 1px solid #ddd;
   box-sizing: border-box;
   display: block;
@@ -120,4 +123,27 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+/* not found page */
+.not-found{
+  text-align: center;
+}
+
+.not-found h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.not-found p{
+  color: tomato;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.not-found a{
+  text-decoration: none;
 }

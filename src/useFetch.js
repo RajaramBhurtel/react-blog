@@ -21,6 +21,12 @@ const useFetch = (url) => {
           setData(data);
           setIsPending(false);
           setError(null);
+        
+          //local storage to get data
+            localStorage.setItem("title", data.title);
+            localStorage.setItem("body", data.body);
+            localStorage.setItem("author", data.author);
+         
         })
         .catch((err) => {
           setIsPending(false);

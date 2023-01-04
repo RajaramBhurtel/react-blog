@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 
 const BlogDetails = () => {
@@ -19,12 +19,14 @@ const BlogDetails = () => {
         {error && <div>{error}</div>}
         {isPending && <div>Loading...</div>}
         {blog && (
-            <article>
-                <h2>{blog.title}</h2>
-                <p>Written by: {blog.author}</p>
-                <div>{blog.body}</div>
-                <button onClick={handleDelete}>Delete</button>
-            </article>
+          <article>
+            <Link to={`/blogs/edit/${blog.id}`}>
+              <h2>{blog.title}</h2>
+              <p>Written by: {blog.author}</p>
+              <div>{blog.body}</div>
+            </Link>
+            <button onClick={handleDelete}>Delete</button>
+          </article>
         )}
       </div>
     );
